@@ -1,0 +1,16 @@
+:root{
+  --eld-nav-height:4rem;
+}
+
+.eld-nav-bar{
+  min-height: var(--eld-nav-height);
+
+  .routers{
+    .eld-nav-item{
+      @apply px-2 py-1 rounded-md text-blue-300 transition-all duration-500 ease-in-out;
+    }
+    .eld-nav-active{
+      @apply text-white shadow-md bg-blue-400;
+    }
+  }
+}

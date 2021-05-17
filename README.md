@@ -1,5 +1,3 @@
-# web-sjz
-
 ## Project setup
 ```
 npm install
